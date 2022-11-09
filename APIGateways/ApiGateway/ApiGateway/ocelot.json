@@ -1,0 +1,197 @@
+﻿{
+  "Routes": [
+    {
+      //__Comment__//
+
+      "DownstreamPathTemplate": "/api/v1/Comment/AddComment",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post" ],
+      "UpstreamPathTemplate": "/Comment/AddComment",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "5s", //The period that the limit applies to
+        "PeriodTimespan": 3, //This value specifies that we can retry after a certain number of seconds
+        "Limit": 1 //This value specifies the maximum number of requests that a client can make in a defined period.
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/v1/Comment/GetComments/{dogID}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamPathTemplate": "/Comment/GetComments/{dogID}",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 2,
+        "Limit": 1
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 15
+      },
+      "AuthenticationOptions": {
+        "AllowedScopes": [],
+        "AuthenticationProviderKey": "Bearer"
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/v1/Comment/DeleteComment/{commentID}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Delete" ],
+      "UpstreamPathTemplate": "/Comment/DeleteComment/{commentID}",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 2,
+        "Limit": 1
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/v1/Comment/UpvoteComment/{commentID}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamPathTemplate": "/Comment/UpvoteComment/{commentID}",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/v1/Comment/Downvote/{commentID}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamPathTemplate": "/Comment/Downvote/{commentID}",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    },
+
+
+
+    //__User__//
+
+    {
+      "DownstreamPathTemplate": "/api/v1/User/Register",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post" ],
+      "UpstreamPathTemplate": "/User/Register",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "10s",
+        "PeriodTimespan": 5,
+        "Limit": 1
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/v1/User/Login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post" ],
+      "UpstreamPathTemplate": "/User/Login",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "10s",
+        "PeriodTimespan": 5,
+        "Limit": 1
+      }
+    },
+
+
+
+    //__Email__//
+
+    {
+      "DownstreamPathTemplate": "/api/v1/Email/SendEmail",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44311
+        }
+      ],
+      "UpstreamHttpMethod": [ "Post" ],
+      "UpstreamPathTemplate": "/Email/SendEmail",
+
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "10s",
+        "PeriodTimespan": 5,
+        "Limit": 1
+      }
+    }
+
+  ],
+
+  
+
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5005"
+  }
+
+
+}

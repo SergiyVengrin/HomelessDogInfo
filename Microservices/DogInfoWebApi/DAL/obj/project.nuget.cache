@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "utvIvxJYsfYydfMKOaMohWpbJpY7iK60aEq8mGw02I/i+EWOn1MeuhqEAFTs79e67mm1VKjAJhxKuYt5B7jbVg==",
+  "success": true,
+  "projectFilePath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\DogInfoWebApi\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\npgsql\\6.0.7\\npgsql.6.0.7.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
