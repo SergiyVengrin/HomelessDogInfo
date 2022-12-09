@@ -12,38 +12,35 @@ namespace BLL.Services
 {
     public sealed class UserService : IUserService
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
 
 
-        public UserService(IUnitOfWork unitOfWork, IMapper mapper)
+        public UserService(IUserRepository userRepository, IMapper mapper)
         {
-            _unitOfWork = unitOfWork;
+            _userRepository = userRepository;
             _mapper = mapper;
         }
+
 
         public async Task<bool> Login(UserModel userModel)
         {
             try
             {
-                var user = await _unitOfWork.UserRepository.GetUserAsync(_mapper.Map<User>(userModel));
+                var user = await _userRepository.GetUserAsync(_mapper.Map<User>(userModel));
 
                 if (user != null && PasswordHasher.VerifyPassword(userModel.Password, user.Password))
                 {
                     return true;
                 }
             }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
+            catch { throw; }
 
             return false;
         }
 
 
-
-        public async Task Register(UserModel userModel) 
+        public async Task Register(UserModel userModel)
         {
             userModel.Password = PasswordHasher.HashPassword(userModel.Password);
             userModel.UserName = string
@@ -55,14 +52,9 @@ namespace BLL.Services
 
             try
             {
-                await _unitOfWork.UserRepository.AddAsync(mappedUser);
+                await _userRepository.AddAsync(mappedUser);
             }
-            catch(Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-
-            
+            catch { throw; }
         }
     }
 }

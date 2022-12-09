@@ -16,8 +16,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using BLL.POCOs;
 
 namespace CommentsWebApi
 {
@@ -34,18 +36,29 @@ namespace CommentsWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             //Dependency injection
-            services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<ICommentService, CommentService>();
             services.AddTransient<IUserService, UserService>();
-            services.AddTransient<ICommentRepository, CommentRepository>();
-            services.AddTransient<IUserRepository, UserRepository>();
             services.AddScoped<IEmailSenderService, EmailSenderService>();
             services.AddTransient<ITokenService, TokenService>();
+            services.AddTransient<ICommentRepository, CommentRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
 
             if (Convert.ToBoolean(Configuration["EnableCaching"]))
             {
                 services.Decorate<ICommentRepository, CommentRepositoryCachingDecorator>(); // Scrutor
             }
+
+            services.Configure<EmailData>(Configuration.GetSection("EmailData"));
+
+            services.AddDbContext<CommentContext>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("CommentsDbConnectionString"), npgsqlOptions =>
+                {
+                    npgsqlOptions.EnableRetryOnFailure(
+                        maxRetryCount: 3,
+                        maxRetryDelay: TimeSpan.FromSeconds(5),
+                        errorCodesToAdd: new List<string> { "4060" });
+                }));
+
             services.AddApiVersioning(config =>
             {
                 config.DefaultApiVersion = new ApiVersion(1, 0);
@@ -61,7 +74,7 @@ namespace CommentsWebApi
 
             services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);//We set Time here 
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
@@ -80,7 +93,7 @@ namespace CommentsWebApi
                 };
             });
 
-            
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

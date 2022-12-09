@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj": {}
+    "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj": {}
   },
   "projects": {
-    "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj": {
+    "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\obj\\",
+        "projectPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj"
+              "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj"
               }
             }
           }
@@ -93,21 +93,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj": {
+    "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj",
+        "projectUniqueName": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj",
         "projectName": "CommentsWebApi",
-        "projectPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\obj\\",
+        "projectPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj",
+        "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,11 +121,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj"
+              "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\BLL\\BLL.csproj"
               },
-              "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj"
+              "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj"
               }
             }
           }
@@ -171,6 +171,10 @@
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -218,21 +222,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj": {
+    "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\VSProj\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\obj\\",
+        "projectPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -293,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DAL.Data;
@@ -11,7 +10,12 @@ namespace DAL.Repositories
 {
     public sealed class CommentRepository : ICommentRepository
     {
-        private readonly CommentContext _db = new CommentContext();
+        private readonly CommentContext _db;
+
+        public CommentRepository(CommentContext commentContext)
+        {
+            _db= commentContext;
+        }
 
 
         public async Task AddAsync(Comment comment)

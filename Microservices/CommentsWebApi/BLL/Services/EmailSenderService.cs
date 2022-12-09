@@ -2,29 +2,28 @@
 using System.Threading.Tasks;
 using BLL.Interfaces;
 using BLL.Models;
+using BLL.POCOs;
 using MailKit.Net.Smtp;
 using MailKit.Security;
+using Microsoft.Extensions.Options;
 using MimeKit;
 
 namespace BLL.Services
 {
     public sealed class EmailSenderService : IEmailSenderService
     {
-        private readonly string _fromEmail;
-        private readonly string _fromEmailPassword;
+        private readonly IOptions<EmailData> _config;
 
-
-        public EmailSenderService()
+        public EmailSenderService(IOptions<EmailData> config)
         {
-            _fromEmail = "SERHII.VENHRYN@lnu.edu.ua";
-            _fromEmailPassword = Environment.GetEnvironmentVariable("EMAIL_PASSWORD", EnvironmentVariableTarget.User);
+            _config = config;
         }
 
 
         public async Task SendEmail(EmailModel emailModel)
         {
             var emailMessage = new MimeMessage();
-            emailMessage.From.Add(new MailboxAddress("CommentsWebApi", _fromEmail));
+            emailMessage.From.Add(new MailboxAddress("CommentsWebApi", _config.Value.Address));
             emailMessage.To.Add(new MailboxAddress("", emailModel.ToEmail));
             emailMessage.Subject = emailModel.Subject;
 
@@ -32,23 +31,17 @@ namespace BLL.Services
             bodyBuilder.TextBody = emailModel.Body;
             emailMessage.Body = bodyBuilder.ToMessageBody();
 
-
             try
             {
-
                 using (var client = new SmtpClient())
                 {
                     await client.ConnectAsync("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                    await client.AuthenticateAsync(_fromEmail, _fromEmailPassword);
+                    await client.AuthenticateAsync(_config.Value.Address, _config.Value.Password);
                     await client.SendAsync(emailMessage);
                     await client.DisconnectAsync(true);
                 }
             }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-
+            catch { throw; }
         }
     }
 }

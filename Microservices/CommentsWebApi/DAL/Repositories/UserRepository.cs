@@ -10,7 +10,13 @@ namespace DAL.Repositories
 {
     public sealed class UserRepository : IUserRepository
     {
-        private readonly CommentContext _db = new CommentContext();
+        private readonly CommentContext _db;
+
+
+        public UserRepository(CommentContext commentContext)
+        {
+            _db = commentContext;
+        }
 
         public async Task AddAsync(User user)
         {

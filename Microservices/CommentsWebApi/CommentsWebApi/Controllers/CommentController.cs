@@ -30,19 +30,6 @@ namespace CommentsWebApi.Controllers
         }
 
 
-        /// <summary>
-        ///     Add Comment to db
-        /// </summary>
-        /// 
-        /// <remarks>
-        ///     Sample request
-        /// 
-        ///         POST /api/Comment/AddComment
-        ///     
-        /// </remarks>
-        /// 
-        /// <returns> Added comment to db </returns>
-
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -58,8 +45,7 @@ namespace CommentsWebApi.Controllers
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogWarning("Comment NOT added! Internal error " + ex.Message);
-                    //return StatusCode(500, ex.Message);
+                    _logger.LogError("Comment NOT added! Internal error " + ex.Message);
                     throw new Exception(ex.Message);
                 }
 
@@ -70,20 +56,6 @@ namespace CommentsWebApi.Controllers
             return BadRequest();
         }
 
-
-
-        /// <summary>
-        ///     Get All comments by articleId
-        /// </summary>
-        /// 
-        /// <remarks>
-        ///     Sample request
-        ///     
-        ///         GET /api/Comment/GetComments/articleId
-        /// 
-        /// </remarks>
-        /// 
-        /// <returns> All comments with the desired articleId </returns>
 
         [HttpGet("{dogID}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -102,19 +74,6 @@ namespace CommentsWebApi.Controllers
             return Ok(comments);
         }
 
-
-
-        /// <summary>
-        ///     Delete comment from db by commentId
-        /// </summary>
-        /// 
-        /// <remarks>
-        ///     Sample request
-        ///     
-        ///         DELETE /api/Comment/DeleteComment/commentId
-        /// 
-        /// </remarks>
-        /// <returns> Deletes comment from db </returns>
 
         [HttpDelete("{commentID}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -164,7 +123,6 @@ namespace CommentsWebApi.Controllers
         }
 
 
-
         [HttpGet("{commentID}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -184,7 +142,5 @@ namespace CommentsWebApi.Controllers
             _logger.LogInformation("Downvoted!");
             return Ok();
         }
-
-
     }
 }

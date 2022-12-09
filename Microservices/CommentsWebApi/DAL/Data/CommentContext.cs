@@ -1,41 +1,17 @@
 ﻿using DAL.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 
 namespace DAL.Data
 {
     public sealed class CommentContext : DbContext
     {
-        private readonly string _dbPassword;
-        private readonly string _dbUsername;
-
-        private readonly string connectionString;
-
-        public CommentContext()
-        {
-            _dbUsername = Environment.GetEnvironmentVariable("DbUsername", System.EnvironmentVariableTarget.User);
-            _dbPassword = Environment.GetEnvironmentVariable("DbPassword", System.EnvironmentVariableTarget.User);
-
-            connectionString = $"Host=localhost;Port=5432;Database=CommentsDb;Username={_dbUsername};Password={_dbPassword}";
-        }
+        public CommentContext(DbContextOptions<CommentContext> options) : base(options)
+        { }
 
 
         public DbSet<Comment> Comments { get; set; }
         public DbSet<User> Users { get; set; }
 
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql(connectionString, options =>
-            {
-                options.EnableRetryOnFailure(
-                    maxRetryCount: 3,
-                    maxRetryDelay: TimeSpan.FromSeconds(5),
-                    errorCodesToAdd: new List<string> { "4060" });
-            });
-
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

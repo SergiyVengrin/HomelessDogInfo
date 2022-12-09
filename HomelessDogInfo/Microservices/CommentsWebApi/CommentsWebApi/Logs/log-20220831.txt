@@ -1,8 +1,0 @@
-2022-08-31T19:59:53.4608706+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
-2022-08-31T19:59:53.4768941+03:00  [INF] Hosting environment: "Development" (c3307c92)
-2022-08-31T19:59:53.4793035+03:00  [INF] Content root path: "D:\VSProj\CommentsWebApi\CommentsWebApi" (b5d60022)
-2022-08-31T20:00:06.6757612+03:00 80000006-0001-fb00-b63f-84710c7967bb [INF] There are no comments! (bf04cfd6)
-2022-08-31T20:00:41.9030725+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
-2022-08-31T20:00:41.9223702+03:00  [INF] Hosting environment: "Development" (c3307c92)
-2022-08-31T20:00:41.9245858+03:00  [INF] Content root path: "D:\VSProj\CommentsWebApi\CommentsWebApi" (b5d60022)
-2022-08-31T20:01:40.2341003+03:00 8000000a-0002-fe00-b63f-84710c7967bb [WRN] Comment NOT deleted! (ec4316b7)

@@ -26,3 +26,17 @@ D:\VSProj\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\refi
 D:\VSProj\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.pdb
 D:\VSProj\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
 D:\VSProj\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\bin\Debug\net6.0\DAL.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\bin\Debug\net6.0\DAL.pdb
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.pdb
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\DAL\obj\Debug\net6.0\ref\DAL.dll
