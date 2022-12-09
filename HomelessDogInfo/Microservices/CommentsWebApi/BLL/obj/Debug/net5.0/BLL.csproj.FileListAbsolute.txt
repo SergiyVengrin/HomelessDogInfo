@@ -1,0 +1,15 @@
+D:\VSProj\CommentsWebApi\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\VSProj\CommentsWebApi\BLL\bin\Debug\net5.0\BLL.dll
+D:\VSProj\CommentsWebApi\BLL\bin\Debug\net5.0\BLL.pdb
+D:\VSProj\CommentsWebApi\BLL\bin\Debug\net5.0\DAL.dll
+D:\VSProj\CommentsWebApi\BLL\bin\Debug\net5.0\DAL.pdb
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.dll
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\refint\BLL.dll
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\BLL.pdb
+D:\VSProj\CommentsWebApi\BLL\obj\Debug\net5.0\ref\BLL.dll

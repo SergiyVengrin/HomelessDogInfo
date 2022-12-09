@@ -1,0 +1,5 @@
+2022-09-05T17:52:43.6689276+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-09-05T17:52:43.6838566+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-09-05T17:52:43.6866444+03:00  [INF] Content root path: "D:\VSProj\CommentsWebApi\CommentsWebApi" (b5d60022)
+2022-09-05T17:53:01.2531476+03:00 80000002-0000-fd00-b63f-84710c7967bb [INF] Comments received! (e429b7b2)
+2022-09-05T17:53:18.7326695+03:00 80000004-0000-fd00-b63f-84710c7967bb [INF] Email sent! (6818df28)
