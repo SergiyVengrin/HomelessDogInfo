@@ -1,0 +1,5 @@
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache

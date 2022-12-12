@@ -1,0 +1,15 @@
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\bin\Debug\net6.0\Application.deps.json
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\bin\Debug\net6.0\Application.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\bin\Debug\net6.0\Application.pdb
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\bin\Debug\net6.0\Domain.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\bin\Debug\net6.0\Domain.pdb
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\refint\Application.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\Application.pdb
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Application\obj\Debug\net6.0\ref\Application.dll

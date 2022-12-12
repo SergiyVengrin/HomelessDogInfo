@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N6NFZsv1WTINvoSwWdoZ3n1vrXDNp9+FLbockagxQbus+K8i5SdraplF1lo/YGkPpOthT5FUG2dz8mV1inJ+Zw==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\DogInfoWebApi\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
