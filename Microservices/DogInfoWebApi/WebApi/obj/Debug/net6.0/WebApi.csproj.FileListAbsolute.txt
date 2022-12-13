@@ -49,3 +49,14 @@ D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\obj\D
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\obj\Debug\net6.0\ref\WebApi.dll
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\AutoMapper.dll
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\FluentValidation.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.File.dll

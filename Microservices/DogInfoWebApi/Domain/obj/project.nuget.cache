@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "N6NFZsv1WTINvoSwWdoZ3n1vrXDNp9+FLbockagxQbus+K8i5SdraplF1lo/YGkPpOthT5FUG2dz8mV1inJ+Zw==",
+  "dgSpecHash": "hgbBFKf4ttAo594+B9iZy0DlrHjMcgGOzDa5t7+v1aB5TiTC34ZdTqt1AZoUVH24uAwfyQkz06XK8HOKxMpOPg==",
   "success": true,
   "projectFilePath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\DogInfoWebApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,7 +3,6 @@ using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.DTOs.DogInfoDTOs;
-using MediatR;
 
 namespace WebApi.Controllers
 {
@@ -13,11 +12,13 @@ namespace WebApi.Controllers
     {
         private readonly IMediator _mediator;
         private readonly IMapper _mapper;
+        private readonly ILogger<DogInfoController> _logger;
 
-        public DogInfoController(IMediator mediator, IMapper mapper)
+        public DogInfoController(IMediator mediator, IMapper mapper, ILogger<DogInfoController> logger)
         {
             _mediator = mediator;
             _mapper = mapper;
+            _logger = logger;   
         }
 
 
