@@ -1,3 +1,8 @@
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
@@ -5,11 +10,6 @@ D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructu
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\bin\Debug\net6.0\Domain.dll
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\bin\Debug\net6.0\Application.pdb
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\bin\Debug\net6.0\Domain.pdb
-D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
-D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
-D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
-D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
 D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll

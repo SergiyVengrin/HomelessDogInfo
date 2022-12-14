@@ -199,3 +199,1295 @@ DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error
 
 DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
 2022-12-13 18:53:25.167 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 500 - application/json 287.9690ms
+2022-12-13 19:09:02.406 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 19:09:02.447 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 19:09:02.451 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 19:09:02.453 +02:00 [INF] Hosting environment: Development
+2022-12-13 19:09:02.454 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 19:09:03.186 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 19:09:03.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 423.4878ms
+2022-12-13 19:09:03.648 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 19:09:03.654 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.8604ms
+2022-12-13 19:09:03.666 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 19:09:03.691 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.0928ms
+2022-12-13 19:09:03.860 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 19:09:04.027 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.1436ms
+2022-12-13 19:09:09.426 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-13 19:09:09.442 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:09:09.490 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 19:09:11.059 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 1557.7659ms
+2022-12-13 19:09:11.071 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:09:11.184 +02:00 [ERR] 23503: insert або update в таблиці "dogs_info" порушує обмеження зовнішнього ключа "image_id_fk"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2022-12-13 19:09:11.190 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 500 - application/json 1764.1764ms
+2022-12-13 19:09:55.358 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 48
+2022-12-13 19:09:55.364 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:09:55.367 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 19:09:55.467 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 97.3722ms
+2022-12-13 19:09:55.469 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:09:55.564 +02:00 [ERR] 23503: insert або update в таблиці "dogs_info" порушує обмеження зовнішнього ключа "image_id_fk"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2022-12-13 19:09:55.567 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 48 - 500 - application/json 210.0442ms
+2022-12-13 19:10:02.552 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 48
+2022-12-13 19:10:02.555 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:10:02.557 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 19:10:02.678 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 118.1674ms
+2022-12-13 19:10:02.681 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:10:02.786 +02:00 [ERR] 23503: insert або update в таблиці "dogs_info" порушує обмеження зовнішнього ключа "image_id_fk"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2022-12-13 19:10:02.789 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 48 - 500 - application/json 236.3147ms
+2022-12-13 19:10:19.785 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 23
+2022-12-13 19:10:19.787 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:10:19.789 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 19:10:19.910 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 118.044ms
+2022-12-13 19:10:19.913 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:10:20.015 +02:00 [ERR] 23503: insert або update в таблиці "dogs_info" порушує обмеження зовнішнього ключа "image_id_fk"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2022-12-13 19:10:20.018 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 23 - 500 - application/json 234.2333ms
+2022-12-13 19:10:25.570 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 27
+2022-12-13 19:10:25.571 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:10:25.573 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 19:10:25.610 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-13 19:10:25.619 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 43.5117ms
+2022-12-13 19:10:25.621 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 19:10:25.623 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 27 - 400 - application/problem+json;+charset=utf-8 55.0969ms
+2022-12-13 19:55:45.929 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 19:55:45.951 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 19:55:45.955 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 19:55:45.956 +02:00 [INF] Hosting environment: Development
+2022-12-13 19:55:45.957 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 19:55:46.490 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 19:55:46.846 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 357.3544ms
+2022-12-13 19:55:46.869 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 19:55:46.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.6804ms
+2022-12-13 19:55:46.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 19:55:46.955 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.2973ms
+2022-12-13 19:55:47.033 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 19:55:47.151 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.4441ms
+2022-12-13 19:55:56.322 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 19:55:56.333 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 19:55:56.362 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 19:55:57.181 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-13 19:55:57.192 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 822.5908ms
+2022-12-13 19:55:57.195 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 19:55:57.197 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 200 0 - 875.2279ms
+2022-12-13 20:23:27.771 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 20:23:27.792 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 20:23:27.795 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 20:23:27.796 +02:00 [INF] Hosting environment: Development
+2022-12-13 20:23:27.797 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 20:23:28.622 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 20:23:29.135 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 516.3891ms
+2022-12-13 20:23:29.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 20:23:29.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 13.5536ms
+2022-12-13 20:23:29.199 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 20:23:29.279 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.8759ms
+2022-12-13 20:23:29.389 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 20:23:29.531 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.5850ms
+2022-12-13 20:23:44.061 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 20:23:44.072 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:23:44.097 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 20:23:44.964 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 860.0771ms
+2022-12-13 20:23:44.973 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:23:45.045 +02:00 [ERR] Sequence contains no elements
+2022-12-13 20:23:45.050 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 500 - application/json 988.5956ms
+2022-12-13 20:24:21.658 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 20:24:21.693 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 20:24:21.698 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 20:24:21.700 +02:00 [INF] Hosting environment: Development
+2022-12-13 20:24:21.701 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 20:24:22.261 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 20:24:22.656 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 399.8638ms
+2022-12-13 20:24:22.678 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 20:24:22.683 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.7822ms
+2022-12-13 20:24:22.688 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 20:24:22.710 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.6433ms
+2022-12-13 20:24:22.817 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 20:24:22.930 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.0864ms
+2022-12-13 20:24:28.093 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 20:24:28.104 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:24:28.128 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 20:24:28.857 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-13 20:24:28.865 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 730.8876ms
+2022-12-13 20:24:28.868 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:24:28.872 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 200 0 - 778.5706ms
+2022-12-13 20:24:34.678 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 20:24:34.680 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:24:34.681 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 20:24:34.693 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-13 20:24:34.693 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 10.2063ms
+2022-12-13 20:24:34.695 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:24:34.696 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 200 0 - 17.5062ms
+2022-12-13 20:25:11.949 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 20:25:11.987 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 20:25:11.992 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 20:25:11.994 +02:00 [INF] Hosting environment: Development
+2022-12-13 20:25:11.995 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 20:25:12.804 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 20:25:13.208 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 408.3985ms
+2022-12-13 20:25:13.233 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 20:25:13.239 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.8468ms
+2022-12-13 20:25:13.243 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 20:25:13.263 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.1617ms
+2022-12-13 20:25:13.362 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 20:25:13.481 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.7483ms
+2022-12-13 20:25:18.949 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 20:25:18.961 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:25:18.986 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 20:25:19.695 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-13 20:25:19.705 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 712.2114ms
+2022-12-13 20:25:19.708 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:25:19.710 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 200 0 - 761.5263ms
+2022-12-13 20:26:33.239 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 20:26:33.277 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 20:26:33.283 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 20:26:33.287 +02:00 [INF] Hosting environment: Development
+2022-12-13 20:26:33.288 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 20:26:33.886 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 20:26:34.291 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 408.7517ms
+2022-12-13 20:26:34.318 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 20:26:34.324 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.1797ms
+2022-12-13 20:26:34.328 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 20:26:34.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.3958ms
+2022-12-13 20:26:34.446 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 20:26:34.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.8997ms
+2022-12-13 20:26:39.127 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 20:26:39.138 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:26:39.163 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 20:26:58.040 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 20:26:58.073 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 20:26:58.077 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 20:26:58.079 +02:00 [INF] Hosting environment: Development
+2022-12-13 20:26:58.080 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 20:26:58.926 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 20:26:59.191 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 268.6203ms
+2022-12-13 20:26:59.216 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 20:26:59.222 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.1734ms
+2022-12-13 20:26:59.224 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 20:26:59.248 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.9157ms
+2022-12-13 20:26:59.341 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 20:26:59.455 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.7671ms
+2022-12-13 20:27:03.920 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 20:27:03.930 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:27:03.955 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 20:27:04.722 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 759.9956ms
+2022-12-13 20:27:04.728 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:27:04.806 +02:00 [ERR] Entity with id: 0 not found.
+2022-12-13 20:27:04.810 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 500 - application/json 889.9773ms
+2022-12-13 20:28:45.789 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 20:28:45.829 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 20:28:45.835 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 20:28:45.840 +02:00 [INF] Hosting environment: Development
+2022-12-13 20:28:45.841 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 20:28:46.730 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 20:28:46.987 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 260.1096ms
+2022-12-13 20:28:47.025 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 20:28:47.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.2810ms
+2022-12-13 20:28:47.034 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 20:28:47.058 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.0514ms
+2022-12-13 20:28:47.151 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 20:28:47.259 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.6118ms
+2022-12-13 20:28:52.764 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-13 20:28:52.776 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:28:52.807 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 20:28:53.588 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 772.818ms
+2022-12-13 20:28:53.595 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-13 20:28:53.682 +02:00 [ERR] Entity with id: 0 not found.
+2022-12-13 20:28:53.687 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 404 - application/json 923.0450ms
+2022-12-13 21:13:17.795 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 21:13:17.847 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 21:13:17.854 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 21:13:17.856 +02:00 [INF] Hosting environment: Development
+2022-12-13 21:13:17.857 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 21:13:18.854 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 21:13:19.254 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 404.6150ms
+2022-12-13 21:13:19.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 21:13:19.295 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.4144ms
+2022-12-13 21:13:19.302 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 21:13:19.330 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.7221ms
+2022-12-13 21:13:19.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 21:13:19.658 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.5710ms
+2022-12-13 21:13:33.657 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143
+2022-12-13 21:13:33.698 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-13 21:13:33.754 +02:00 [INF] Route matched with {action = "UpdateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDogInfo(WebApi.DTOs.DogInfoDTOs.UpdateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 21:13:34.103 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi) in 339.3902ms
+2022-12-13 21:13:34.114 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-13 21:13:34.144 +02:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateDogInfoDTO -> UpdateDogInfoCommand
+WebApi.DTOs.DogInfoDTOs.UpdateDogInfoDTO -> Application.DogInfo.Commands.UpdateDogInfo.UpdateDogInfoCommand
+2022-12-13 21:13:34.148 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143 - 500 - application/json 491.5152ms
+2022-12-13 21:14:21.307 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-13 21:14:21.345 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-13 21:14:21.352 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-13 21:14:21.353 +02:00 [INF] Hosting environment: Development
+2022-12-13 21:14:21.355 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-13 21:14:21.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-13 21:14:22.257 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 410.7658ms
+2022-12-13 21:14:22.292 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-13 21:14:22.300 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 7.5898ms
+2022-12-13 21:14:22.306 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-13 21:14:22.336 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.7628ms
+2022-12-13 21:14:22.473 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-13 21:14:22.655 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.0474ms
+2022-12-13 21:14:29.284 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143
+2022-12-13 21:14:29.305 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-13 21:14:29.355 +02:00 [INF] Route matched with {action = "UpdateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDogInfo(WebApi.DTOs.DogInfoDTOs.UpdateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 21:14:30.831 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi) in 1463.4133ms
+2022-12-13 21:14:30.843 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-13 21:14:30.951 +02:00 [ERR] Entity with id: 0 not found.
+2022-12-13 21:14:30.957 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143 - 404 - application/json 1673.2149ms
+2022-12-13 21:15:14.178 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130
+2022-12-13 21:15:14.192 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 21:15:14.199 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 21:15:14.341 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-13 21:15:14.343 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 141.7515ms
+2022-12-13 21:15:14.345 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-13 21:15:14.347 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130 - 200 0 - 174.4786ms
+2022-12-13 21:16:04.824 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143
+2022-12-13 21:16:04.830 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-13 21:16:04.832 +02:00 [INF] Route matched with {action = "UpdateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDogInfo(WebApi.DTOs.DogInfoDTOs.UpdateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-13 21:16:04.921 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-13 21:16:04.922 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi) in 87.9542ms
+2022-12-13 21:16:04.924 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-13 21:16:04.926 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143 - 200 0 - 102.7884ms
+2022-12-14 11:53:20.333 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 11:53:20.359 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 11:53:20.362 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 11:53:20.363 +02:00 [INF] Hosting environment: Development
+2022-12-14 11:53:20.364 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 11:53:21.649 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 11:53:22.005 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 360.0937ms
+2022-12-14 11:53:22.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 11:53:22.037 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.6107ms
+2022-12-14 11:53:22.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 11:53:22.125 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.7872ms
+2022-12-14 11:53:22.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 11:53:22.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.2469ms
+2022-12-14 11:53:30.194 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-14 11:53:30.206 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 11:53:30.233 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 11:53:31.137 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 11:53:31.146 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 906.7069ms
+2022-12-14 11:53:31.149 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 11:53:31.151 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 200 0 - 957.2231ms
+2022-12-14 11:53:45.680 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143
+2022-12-14 11:53:45.683 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-14 11:53:45.686 +02:00 [INF] Route matched with {action = "UpdateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDogInfo(WebApi.DTOs.DogInfoDTOs.UpdateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 11:53:45.787 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi) in 98.0881ms
+2022-12-14 11:53:45.789 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-14 11:53:45.847 +02:00 [ERR] Entity with id: 0 not found.
+2022-12-14 11:53:45.850 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143 - 404 - application/json 170.1738ms
+2022-12-14 11:54:15.300 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143
+2022-12-14 11:54:15.314 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-14 11:54:15.315 +02:00 [INF] Route matched with {action = "UpdateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDogInfo(WebApi.DTOs.DogInfoDTOs.UpdateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 11:54:15.369 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi) in 52.8195ms
+2022-12-14 11:54:15.372 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.UpdateDogInfo (WebApi)'
+2022-12-14 11:54:15.416 +02:00 [ERR] Entity with id: 0 not found.
+2022-12-14 11:54:15.418 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7223/api/DogInfo/UpdateDogInfo/UpdateDogInfo application/json 143 - 404 - application/json 117.6030ms
+2022-12-14 11:54:22.277 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-14 11:54:22.278 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 11:54:22.279 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 11:54:22.337 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 56.4796ms
+2022-12-14 11:54:22.338 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 11:54:22.380 +02:00 [ERR] Entity with id: 0 not found.
+2022-12-14 11:54:22.381 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 404 - application/json 104.8705ms
+2022-12-14 11:54:26.209 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13
+2022-12-14 11:54:26.210 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 11:54:26.211 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 11:54:26.262 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 48.8116ms
+2022-12-14 11:54:26.264 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 11:54:26.307 +02:00 [ERR] Entity with id: 0 not found.
+2022-12-14 11:54:26.309 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 13 - 404 - application/json 99.5560ms
+2022-12-14 12:06:01.870 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 12:06:01.896 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 12:06:01.900 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 12:06:01.901 +02:00 [INF] Hosting environment: Development
+2022-12-14 12:06:01.902 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 12:06:02.545 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 12:06:02.814 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 271.4136ms
+2022-12-14 12:06:02.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 12:06:02.842 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.0655ms
+2022-12-14 12:06:02.853 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 12:06:02.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9513ms
+2022-12-14 12:06:02.983 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 12:06:03.117 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.5764ms
+2022-12-14 12:06:09.317 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 12:06:09.329 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:06:09.355 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 12:06:10.181 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 819.4546ms
+2022-12-14 12:06:10.189 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:06:10.259 +02:00 [ERR] 23503: insert або update в таблиці "dogs_info" порушує обмеження зовнішнього ключа "image_id_fk"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2022-12-14 12:06:10.263 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 500 - application/json 946.7950ms
+2022-12-14 12:06:20.036 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 12:06:20.039 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:06:20.040 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 12:06:20.072 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 12:06:20.074 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 31.1401ms
+2022-12-14 12:06:20.075 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:06:20.076 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 200 0 - 40.1864ms
+2022-12-14 12:07:08.786 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 127
+2022-12-14 12:07:08.793 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:07:08.795 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 12:07:08.807 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 12:07:08.808 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 11.5323ms
+2022-12-14 12:07:08.809 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:07:08.810 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 127 - 200 0 - 24.4922ms
+2022-12-14 12:08:55.200 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 12:08:55.247 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 12:08:55.259 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 12:08:55.261 +02:00 [INF] Hosting environment: Development
+2022-12-14 12:08:55.262 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 12:08:55.821 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 12:08:56.186 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 370.6853ms
+2022-12-14 12:08:56.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 12:08:56.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.4548ms
+2022-12-14 12:08:56.220 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 12:08:56.240 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5868ms
+2022-12-14 12:08:56.354 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 12:08:56.479 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.0307ms
+2022-12-14 12:09:11.598 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 127
+2022-12-14 12:09:11.610 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:09:11.637 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 12:09:12.372 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 12:09:12.385 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 741.1408ms
+2022-12-14 12:09:12.387 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 12:09:12.390 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 127 - 200 0 - 791.9016ms
+2022-12-14 14:08:56.636 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:08:56.679 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:08:56.684 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:08:56.686 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:08:56.687 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:08:57.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:08:58.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 434.8485ms
+2022-12-14 14:08:58.057 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:08:58.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 9.8253ms
+2022-12-14 14:08:58.084 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:08:58.112 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.1271ms
+2022-12-14 14:08:58.251 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:08:58.405 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.6579ms
+2022-12-14 14:09:07.669 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:09:07.691 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:09:07.736 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:09:08.309 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 560.6151ms
+2022-12-14 14:09:08.324 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:09:08.360 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:09:08.366 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 500 - application/json 697.0200ms
+2022-12-14 14:10:41.822 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:10:41.860 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:10:41.865 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:10:41.866 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:10:41.868 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:10:42.760 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:10:43.206 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 452.9304ms
+2022-12-14 14:10:43.249 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:10:43.257 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 7.8470ms
+2022-12-14 14:10:43.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:10:43.328 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.9621ms
+2022-12-14 14:10:43.508 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:10:43.762 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 253.7067ms
+2022-12-14 14:10:50.286 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:10:50.307 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:10:50.364 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:10:50.893 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 516.6076ms
+2022-12-14 14:10:50.903 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:10:50.932 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:10:50.936 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 649.9903ms
+2022-12-14 14:11:09.677 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:11:09.682 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:11:09.685 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:11:10.770 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 14:11:10.776 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 1086.9614ms
+2022-12-14 14:11:10.781 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:11:10.786 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 200 0 - 1109.1265ms
+2022-12-14 14:11:16.948 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133
+2022-12-14 14:11:16.953 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:11:16.954 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:11:17.039 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 80.772ms
+2022-12-14 14:11:17.042 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:11:17.069 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:11:17.071 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133 - 400 - application/json 123.0925ms
+2022-12-14 14:11:50.641 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 127
+2022-12-14 14:11:50.652 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:11:50.703 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:11:50.813 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 107.1336ms
+2022-12-14 14:11:50.815 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:11:50.844 +02:00 [ERR] Validation failed: 
+ -- Name: 'Name' має бути довжиною від 2 до 30 символів. Ви ввели 1 символів. Severity: Error
+2022-12-14 14:11:50.847 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 127 - 400 - application/json 208.1757ms
+2022-12-14 14:12:06.110 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130
+2022-12-14 14:12:06.121 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:12:06.123 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:12:06.216 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 89.6146ms
+2022-12-14 14:12:06.219 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:12:06.249 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:12:06.251 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130 - 400 - application/json 142.5628ms
+2022-12-14 14:12:16.926 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126
+2022-12-14 14:12:16.928 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:12:16.930 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:13:31.536 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:13:31.572 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:13:31.578 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:13:31.579 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:13:31.581 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:13:32.598 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:13:33.018 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 423.7934ms
+2022-12-14 14:13:33.059 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:13:33.065 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.8706ms
+2022-12-14 14:13:33.074 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:13:33.102 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.8422ms
+2022-12-14 14:13:33.256 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:13:33.451 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 195.2926ms
+2022-12-14 14:13:41.764 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126
+2022-12-14 14:13:41.792 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:13:41.842 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:15:32.839 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:15:32.872 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:15:32.877 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:15:32.878 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:15:32.880 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:15:33.999 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:15:34.523 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 529.0734ms
+2022-12-14 14:15:34.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:15:34.577 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.1327ms
+2022-12-14 14:15:34.590 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:15:34.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.6071ms
+2022-12-14 14:15:34.830 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:15:35.031 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.5369ms
+2022-12-14 14:15:42.064 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:15:42.085 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:15:42.148 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:15:42.726 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 565.4236ms
+2022-12-14 14:15:42.739 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:15:42.778 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:15:42.783 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 719.5831ms
+2022-12-14 14:15:48.376 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126
+2022-12-14 14:15:48.380 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:15:48.382 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:15:48.489 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 103.6896ms
+2022-12-14 14:15:48.492 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:15:48.518 +02:00 [ERR] Validation failed: 
+ -- Name: Name should not be empty. Severity: Error
+ -- Name: 'Name' має бути довжиною від 2 до 30 символів. Ви ввели 0 символів. Severity: Error
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:15:48.520 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126 - 400 - application/json 144.1133ms
+2022-12-14 14:16:44.421 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:16:44.452 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:16:44.457 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:16:44.459 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:16:44.460 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:16:45.805 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:16:46.267 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 467.1585ms
+2022-12-14 14:16:46.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:16:46.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.6721ms
+2022-12-14 14:16:46.322 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:16:46.351 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.9431ms
+2022-12-14 14:16:46.547 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:16:46.819 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 271.7517ms
+2022-12-14 14:16:53.486 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:16:53.511 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:16:53.564 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:16:54.106 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 531.605ms
+2022-12-14 14:16:54.117 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:16:54.149 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:16:54.157 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 672.2658ms
+2022-12-14 14:16:59.508 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126
+2022-12-14 14:16:59.512 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:16:59.516 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:16:59.618 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 98.6296ms
+2022-12-14 14:16:59.622 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:16:59.648 +02:00 [ERR] Validation failed: 
+ -- Name: Name should not be empty. Severity: Error
+2022-12-14 14:16:59.650 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126 - 400 - application/json 142.4368ms
+2022-12-14 14:19:02.107 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:19:02.153 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:19:02.161 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:19:02.162 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:19:02.164 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:19:02.939 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:19:03.391 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 456.5824ms
+2022-12-14 14:19:03.469 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:19:03.495 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:19:03.499 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 29.5288ms
+2022-12-14 14:19:03.540 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.4378ms
+2022-12-14 14:19:03.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:19:03.950 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 212.2976ms
+2022-12-14 14:19:13.258 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126
+2022-12-14 14:19:13.281 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:19:13.327 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:19:13.875 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 533.3654ms
+2022-12-14 14:19:13.890 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:19:13.919 +02:00 [ERR] Validation failed: 
+ -- Name: Name should not be empty. Severity: Error
+2022-12-14 14:19:13.924 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 126 - 400 - application/json 666.7450ms
+2022-12-14 14:19:21.898 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 129
+2022-12-14 14:19:21.905 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:19:21.910 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:19:21.997 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 83.4063ms
+2022-12-14 14:19:21.999 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:19:22.028 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:19:22.030 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 129 - 400 - application/json 132.2893ms
+2022-12-14 14:33:33.960 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:33:33.993 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:33:33.999 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:33:34.000 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:33:34.002 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:33:35.469 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:33:35.878 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 413.4525ms
+2022-12-14 14:33:35.916 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:33:35.923 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 7.3987ms
+2022-12-14 14:33:35.926 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:33:35.956 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.8256ms
+2022-12-14 14:33:36.106 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:33:36.278 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.2798ms
+2022-12-14 14:33:44.727 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:33:44.752 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:33:44.799 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:33:45.407 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 598.3785ms
+2022-12-14 14:33:45.420 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:33:45.454 +02:00 [ERR] Validation failed: 
+ -- Residence: Residence is not valid. Severity: Error
+ -- Breed: Breed is not valid. Severity: Error
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:33:45.460 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 732.3806ms
+2022-12-14 14:33:58.505 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:33:58.514 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:33:58.520 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:33:58.607 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 84.0478ms
+2022-12-14 14:33:58.610 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:33:58.645 +02:00 [ERR] Validation failed: 
+ -- Breed: Breed is not valid. Severity: Error
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:33:58.655 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 150.5792ms
+2022-12-14 14:34:11.797 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 136
+2022-12-14 14:34:11.811 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:34:11.814 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:34:11.900 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 82.9167ms
+2022-12-14 14:34:11.902 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:34:11.928 +02:00 [ERR] Validation failed: 
+ -- Breed: Breed is not valid. Severity: Error
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:34:11.930 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 136 - 400 - application/json 135.1627ms
+2022-12-14 14:34:29.396 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 135
+2022-12-14 14:34:29.401 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:34:29.406 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:34:29.496 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 85.2231ms
+2022-12-14 14:34:29.498 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:34:29.526 +02:00 [ERR] Validation failed: 
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:34:29.529 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 135 - 400 - application/json 132.6664ms
+2022-12-14 14:35:02.893 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 131
+2022-12-14 14:35:02.895 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:02.898 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:35:02.938 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 14:35:02.948 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 46.9615ms
+2022-12-14 14:35:02.950 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:02.956 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 131 - 400 - application/problem+json;+charset=utf-8 62.6600ms
+2022-12-14 14:35:15.924 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 116
+2022-12-14 14:35:15.926 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:15.928 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:35:16.020 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 88.7402ms
+2022-12-14 14:35:16.022 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:16.051 +02:00 [ERR] Validation failed: 
+ -- IsDisabled: Is Disabled should not be empty. Severity: Error
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:35:16.053 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 116 - 400 - application/json 129.6713ms
+2022-12-14 14:35:36.162 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 135
+2022-12-14 14:35:36.174 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:36.177 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:35:36.185 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 14:35:36.188 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 6.2842ms
+2022-12-14 14:35:36.190 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:36.198 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 135 - 400 - application/problem+json;+charset=utf-8 35.4943ms
+2022-12-14 14:35:45.641 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 136
+2022-12-14 14:35:45.642 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:45.646 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:35:45.728 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 76.2811ms
+2022-12-14 14:35:45.731 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:35:45.755 +02:00 [ERR] Validation failed: 
+ -- IsDisabled: Is Disabled should not be empty. Severity: Error
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:35:45.758 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 136 - 400 - application/json 116.7234ms
+2022-12-14 14:36:01.471 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 137
+2022-12-14 14:36:01.476 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:01.479 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:36:01.484 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 14:36:01.486 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 4.2534ms
+2022-12-14 14:36:01.489 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:01.497 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 137 - 400 - application/problem+json;+charset=utf-8 26.1376ms
+2022-12-14 14:36:21.692 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 137
+2022-12-14 14:36:21.703 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:21.705 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:36:21.711 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 14:36:21.714 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 5.6597ms
+2022-12-14 14:36:21.716 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:21.723 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 137 - 400 - application/problem+json;+charset=utf-8 30.6715ms
+2022-12-14 14:36:32.202 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 136
+2022-12-14 14:36:32.204 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:32.206 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:36:32.288 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 78.8603ms
+2022-12-14 14:36:32.292 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:32.319 +02:00 [ERR] Validation failed: 
+ -- IsDisabled: Is Disabled should not be empty. Severity: Error
+2022-12-14 14:36:32.320 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 136 - 400 - application/json 119.0918ms
+2022-12-14 14:36:42.067 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 137
+2022-12-14 14:36:42.069 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:42.071 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:36:42.077 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 14:36:42.079 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 4.7474ms
+2022-12-14 14:36:42.082 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:36:42.084 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 137 - 400 - application/problem+json;+charset=utf-8 17.2441ms
+2022-12-14 14:37:09.208 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:37:09.220 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:37:09.221 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:37:09.299 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 75.1903ms
+2022-12-14 14:37:09.301 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:37:09.335 +02:00 [ERR] Validation failed: 
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:37:09.337 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 130.7045ms
+2022-12-14 14:37:16.307 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:37:16.309 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:37:16.311 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:37:17.393 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 14:37:17.398 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 1083.0107ms
+2022-12-14 14:37:17.401 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:37:17.405 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 200 0 - 1098.5618ms
+2022-12-14 14:37:37.769 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:37:37.786 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:37:37.788 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:37:37.792 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 14:37:37.795 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 3.6566ms
+2022-12-14 14:37:37.800 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:37:37.802 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/problem+json;+charset=utf-8 32.5586ms
+2022-12-14 14:38:02.119 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 14:38:02.130 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:38:02.131 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:38:02.211 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 76.6478ms
+2022-12-14 14:38:02.214 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:38:02.240 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+2022-12-14 14:38:02.241 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 122.9622ms
+2022-12-14 14:40:09.930 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:40:09.957 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 27.2777ms
+2022-12-14 14:40:09.996 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:40:09.998 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:40:10.001 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 3.5088ms
+2022-12-14 14:40:10.016 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.0727ms
+2022-12-14 14:40:10.218 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:40:10.224 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.2753ms
+2022-12-14 14:40:10.240 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/favicon-32x32.png - -
+2022-12-14 14:40:10.274 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-12-14 14:40:10.280 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/favicon-32x32.png - - - 200 628 image/png 40.1419ms
+2022-12-14 14:40:24.832 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 14:40:24.863 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 14:40:24.868 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 14:40:24.870 +02:00 [INF] Hosting environment: Development
+2022-12-14 14:40:24.871 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 14:40:25.939 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 14:40:26.408 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 472.8238ms
+2022-12-14 14:40:26.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 14:40:26.483 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.8348ms
+2022-12-14 14:40:26.485 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 14:40:26.518 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.9675ms
+2022-12-14 14:40:26.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 14:40:26.912 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 219.6724ms
+2022-12-14 14:40:42.769 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 131
+2022-12-14 14:40:42.796 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:40:42.843 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:40:43.495 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 640.2468ms
+2022-12-14 14:40:43.506 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:40:43.536 +02:00 [ERR] Validation failed: 
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:40:43.541 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 131 - 400 - application/json 771.8644ms
+2022-12-14 14:40:49.478 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 131
+2022-12-14 14:40:49.487 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:40:49.490 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:40:49.593 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 99.4206ms
+2022-12-14 14:40:49.596 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:40:49.622 +02:00 [ERR] Validation failed: 
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:40:49.624 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 131 - 400 - application/json 146.1184ms
+2022-12-14 14:40:55.513 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130
+2022-12-14 14:40:55.517 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:40:55.519 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:40:55.554 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 14:40:55.565 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 43.6828ms
+2022-12-14 14:40:55.568 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:40:55.571 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130 - 400 - application/problem+json;+charset=utf-8 58.4466ms
+2022-12-14 14:41:03.177 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 115
+2022-12-14 14:41:03.179 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:41:03.181 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 14:41:03.269 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 84.8838ms
+2022-12-14 14:41:03.272 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 14:41:03.309 +02:00 [ERR] Validation failed: 
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 14:41:03.311 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 115 - 400 - application/json 133.7819ms
+2022-12-14 15:29:04.380 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 15:29:04.412 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 15:29:04.417 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 15:29:04.419 +02:00 [INF] Hosting environment: Development
+2022-12-14 15:29:04.421 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 15:29:05.641 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 15:29:06.041 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 405.0722ms
+2022-12-14 15:29:06.074 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 15:29:06.081 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.7582ms
+2022-12-14 15:29:06.096 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 15:29:06.125 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.2734ms
+2022-12-14 15:29:06.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 15:29:06.483 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.2960ms
+2022-12-14 15:29:11.996 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 15:29:12.017 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 15:29:12.068 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 15:29:12.374 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 293.3489ms
+2022-12-14 15:29:12.385 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 15:29:12.420 +02:00 [ERR] CancellationToken does not implement IRequest (Parameter 'request')
+2022-12-14 15:29:12.427 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 500 - application/json 430.9283ms
+2022-12-14 19:02:04.764 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 19:02:04.786 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 19:02:04.789 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 19:02:04.790 +02:00 [INF] Hosting environment: Development
+2022-12-14 19:02:04.791 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 19:02:05.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 19:02:06.329 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 452.5012ms
+2022-12-14 19:02:06.364 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 19:02:06.369 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.3848ms
+2022-12-14 19:02:06.379 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 19:02:06.433 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.3924ms
+2022-12-14 19:02:06.523 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 19:02:06.666 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.7091ms
+2022-12-14 19:02:15.025 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 19:02:15.038 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:02:15.066 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:02:16.163 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 19:02:16.173 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 1100.8448ms
+2022-12-14 19:02:16.178 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:02:16.180 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 1155.1800ms
+2022-12-14 19:05:32.968 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14
+2022-12-14 19:05:32.974 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:05:32.989 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:05:33.474 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 480.7389ms
+2022-12-14 19:05:33.476 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:05:33.640 +02:00 [ERR] Sequence contains more than one element
+2022-12-14 19:05:33.646 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14 - 500 - application/json 679.2152ms
+2022-12-14 19:05:41.648 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14
+2022-12-14 19:05:41.651 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:05:41.653 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:05:41.764 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 108.0146ms
+2022-12-14 19:05:41.768 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:05:41.860 +02:00 [ERR] Sequence contains more than one element
+2022-12-14 19:05:41.863 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14 - 500 - application/json 214.8860ms
+2022-12-14 19:07:26.218 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14
+2022-12-14 19:07:26.241 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:07:26.245 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:07:26.500 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 252.4187ms
+2022-12-14 19:07:26.503 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:07:26.608 +02:00 [ERR] Sequence contains more than one element
+2022-12-14 19:07:26.610 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14 - 500 - application/json 391.9655ms
+2022-12-14 19:07:29.957 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14
+2022-12-14 19:07:29.959 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:07:29.960 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(WebApi.DTOs.DogInfoDTOs.DeleteDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:07:30.074 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 111.3798ms
+2022-12-14 19:07:30.078 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:07:30.167 +02:00 [ERR] Sequence contains more than one element
+2022-12-14 19:07:30.169 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo application/json 14 - 500 - application/json 212.2484ms
+2022-12-14 19:16:56.403 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 19:16:56.434 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 19:16:56.439 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 19:16:56.440 +02:00 [INF] Hosting environment: Development
+2022-12-14 19:16:56.441 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 19:16:57.429 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 19:16:57.856 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 430.1919ms
+2022-12-14 19:16:57.885 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 19:16:57.891 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.3500ms
+2022-12-14 19:16:57.900 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 19:16:58.292 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 391.8123ms
+2022-12-14 19:16:58.354 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 19:16:58.492 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.2555ms
+2022-12-14 19:17:08.335 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=16 - -
+2022-12-14 19:17:08.357 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:17:08.410 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:17:10.101 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 1670.1307ms
+2022-12-14 19:17:10.111 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:17:10.206 +02:00 [ERR] Sequence contains more than one element
+2022-12-14 19:17:10.212 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=16 - - - 500 - application/json 1877.0427ms
+2022-12-14 19:18:23.265 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 19:18:23.310 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 19:18:23.315 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 19:18:23.317 +02:00 [INF] Hosting environment: Development
+2022-12-14 19:18:23.318 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 19:18:24.039 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 19:18:24.452 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 416.6073ms
+2022-12-14 19:18:24.484 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 19:18:24.490 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.0448ms
+2022-12-14 19:18:24.502 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 19:18:24.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.6160ms
+2022-12-14 19:18:24.691 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 19:18:24.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.2936ms
+2022-12-14 19:18:43.845 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=16 - -
+2022-12-14 19:18:43.871 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:18:43.927 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:18:45.293 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 19:18:45.308 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 1370.0629ms
+2022-12-14 19:18:45.312 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:18:45.316 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=16 - - - 200 0 - 1471.2264ms
+2022-12-14 19:19:04.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 19:19:04.038 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:19:04.044 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:19:04.128 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 19:19:04.137 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 89.5417ms
+2022-12-14 19:19:04.139 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:19:04.146 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 136.2055ms
+2022-12-14 19:19:06.847 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 19:19:06.851 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:19:06.853 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:19:06.866 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 19:19:06.870 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 14.3268ms
+2022-12-14 19:19:06.873 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:19:06.876 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 28.9457ms
+2022-12-14 19:27:01.437 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 19:27:01.471 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 19:27:01.476 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 19:27:01.478 +02:00 [INF] Hosting environment: Development
+2022-12-14 19:27:01.480 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 19:27:02.201 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 19:27:02.624 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 427.8126ms
+2022-12-14 19:27:02.674 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 19:27:02.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 10.5477ms
+2022-12-14 19:27:02.697 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 19:27:02.727 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.7954ms
+2022-12-14 19:27:02.876 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 19:27:03.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.2038ms
+2022-12-14 19:27:34.144 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133
+2022-12-14 19:27:34.172 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:27:34.218 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:27:35.610 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 19:27:35.624 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 1395.6175ms
+2022-12-14 19:27:35.629 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:27:35.633 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133 - 200 0 - 1489.0132ms
+2022-12-14 19:27:50.926 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134
+2022-12-14 19:27:50.933 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:27:50.936 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:27:51.110 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 170.3228ms
+2022-12-14 19:27:51.113 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:27:51.150 +02:00 [ERR] Validation failed: 
+ -- IsDisabled: Is Disabled should not be empty. Severity: Error
+2022-12-14 19:27:51.155 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134 - 400 - application/json 230.1179ms
+2022-12-14 19:28:01.831 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133
+2022-12-14 19:28:01.835 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:01.838 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:28:01.868 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 19:28:01.870 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 29.2981ms
+2022-12-14 19:28:01.871 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:01.873 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133 - 200 0 - 42.8581ms
+2022-12-14 19:28:10.057 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134
+2022-12-14 19:28:10.059 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:10.061 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:28:10.152 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 87.813ms
+2022-12-14 19:28:10.155 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:10.184 +02:00 [ERR] Validation failed: 
+ -- IsDisabled: Is Disabled should not be empty. Severity: Error
+2022-12-14 19:28:10.186 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134 - 400 - application/json 129.2084ms
+2022-12-14 19:28:18.404 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130
+2022-12-14 19:28:18.406 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:18.408 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:28:18.429 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 19:28:18.437 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 25.4625ms
+2022-12-14 19:28:18.441 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:18.443 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130 - 400 - application/problem+json;+charset=utf-8 39.8315ms
+2022-12-14 19:28:26.720 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133
+2022-12-14 19:28:26.722 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:26.723 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:28:26.813 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 85.7967ms
+2022-12-14 19:28:26.817 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:28:26.843 +02:00 [ERR] Validation failed: 
+ -- IsDisabled: Is Disabled should not be empty. Severity: Error
+2022-12-14 19:28:26.846 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133 - 400 - application/json 126.6348ms
+2022-12-14 19:29:25.870 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 19:29:25.884 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:29:25.891 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:29:26.057 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 19:29:26.063 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 165.6761ms
+2022-12-14 19:29:26.065 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:29:26.071 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 201.6945ms
+2022-12-14 19:29:39.864 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=18 - -
+2022-12-14 19:29:39.872 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:29:39.880 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:29:40.140 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 257.6398ms
+2022-12-14 19:29:40.144 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:29:40.268 +02:00 [ERR] 42601: синтаксична помилка в або поблизу "dogs_info"
+
+POSITION: 8
+2022-12-14 19:29:40.271 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=18 - - - 500 - application/json 406.2329ms
+2022-12-14 19:29:57.965 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 19:29:57.986 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 21.2212ms
+2022-12-14 19:29:58.030 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 19:29:58.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 19:29:58.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 1.9833ms
+2022-12-14 19:29:58.044 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.6564ms
+2022-12-14 19:29:58.233 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 19:29:58.241 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.8380ms
+2022-12-14 19:29:58.267 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/favicon-32x32.png - -
+2022-12-14 19:29:58.278 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-12-14 19:29:58.280 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/favicon-32x32.png - - - 200 628 image/png 13.7324ms
+2022-12-14 19:30:04.872 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=18 - -
+2022-12-14 19:30:04.878 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:30:04.889 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:30:04.924 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 19:30:04.929 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 33.9079ms
+2022-12-14 19:30:04.931 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 19:30:04.933 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=18 - - - 200 0 - 60.5017ms
+2022-12-14 19:30:14.374 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 19:30:14.379 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:30:14.386 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:30:14.395 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 19:30:14.399 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 9.756ms
+2022-12-14 19:30:14.401 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:30:14.403 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 29.6590ms
+2022-12-14 19:40:02.208 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 19:40:02.244 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 19:40:02.248 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 19:40:02.250 +02:00 [INF] Hosting environment: Development
+2022-12-14 19:40:02.251 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 19:40:03.178 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 19:40:03.596 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 421.2773ms
+2022-12-14 19:40:03.629 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 19:40:03.635 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 6.2664ms
+2022-12-14 19:40:03.644 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 19:40:03.673 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.3470ms
+2022-12-14 19:40:03.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 19:40:04.012 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.5250ms
+2022-12-14 19:40:13.519 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 19:40:13.542 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:40:13.596 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:40:14.931 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 19:40:14.957 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 1344.9717ms
+2022-12-14 19:40:14.969 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:40:14.977 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 1457.5256ms
+2022-12-14 19:40:27.139 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132
+2022-12-14 19:40:27.143 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:40:27.150 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:40:27.552 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 398.2043ms
+2022-12-14 19:40:27.556 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:40:27.583 +02:00 [ERR] Validation failed: 
+ -- Name: Name is not valid. Severity: Error
+ -- Residence: Residence is not valid. Severity: Error
+ -- Breed: Breed is not valid. Severity: Error
+ -- ApproximateWeight: Approximate Weight should be greater than 0 Severity: Error
+ -- ImageId: Image Id should be greater than 0 Severity: Error
+2022-12-14 19:40:27.588 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 132 - 400 - application/json 449.8095ms
+2022-12-14 19:40:56.815 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133
+2022-12-14 19:40:56.831 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:40:56.833 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:40:56.985 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 19:40:56.988 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 152.3297ms
+2022-12-14 19:40:56.991 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:40:56.993 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 133 - 200 0 - 177.8967ms
+2022-12-14 19:41:02.851 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134
+2022-12-14 19:41:02.853 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:41:02.856 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:41:02.876 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 19:41:02.878 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 19.0214ms
+2022-12-14 19:41:02.879 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:41:02.881 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134 - 200 0 - 30.2224ms
+2022-12-14 19:41:09.840 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134
+2022-12-14 19:41:09.842 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:41:09.844 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:41:09.868 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 19:41:09.870 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 23.4519ms
+2022-12-14 19:41:09.874 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 19:41:09.876 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 134 - 200 0 - 36.5091ms
+2022-12-14 19:41:17.168 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 19:41:17.170 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:41:17.172 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 19:41:17.235 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 19:41:17.241 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 65.3437ms
+2022-12-14 19:41:17.243 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 19:41:17.245 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 76.9959ms
+2022-12-14 22:32:09.499 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 22:32:09.548 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 22:32:09.556 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 22:32:09.558 +02:00 [INF] Hosting environment: Development
+2022-12-14 22:32:09.561 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 22:32:10.547 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 22:32:11.272 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 730.7525ms
+2022-12-14 22:32:11.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 22:32:11.338 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 9.1732ms
+2022-12-14 22:32:11.382 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 22:32:11.473 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 91.2696ms
+2022-12-14 22:32:11.588 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 22:32:11.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 322.6641ms
+2022-12-14 22:32:33.420 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=22 - -
+2022-12-14 22:32:33.454 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:32:33.517 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:37:38.984 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 22:37:39.053 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 22:37:39.063 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 22:37:39.066 +02:00 [INF] Hosting environment: Development
+2022-12-14 22:37:39.069 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 22:37:40.210 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 22:37:40.796 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 590.4179ms
+2022-12-14 22:37:40.837 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 22:37:40.848 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 11.0337ms
+2022-12-14 22:37:40.871 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 22:37:40.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.2261ms
+2022-12-14 22:37:41.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 22:37:41.505 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 360.5270ms
+2022-12-14 22:37:48.624 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=22 - -
+2022-12-14 22:37:48.657 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:37:48.718 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:39:11.737 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 22:39:11.806 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 22:39:11.814 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 22:39:11.816 +02:00 [INF] Hosting environment: Development
+2022-12-14 22:39:11.819 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 22:39:13.014 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 22:39:13.587 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 582.5335ms
+2022-12-14 22:39:13.640 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 22:39:13.652 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 11.9181ms
+2022-12-14 22:39:13.667 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 22:39:13.707 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.3914ms
+2022-12-14 22:39:13.935 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 22:39:14.199 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 264.1275ms
+2022-12-14 22:39:19.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 22:39:19.861 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 22:39:19.934 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:39:21.620 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 22:39:21.642 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 1694.2467ms
+2022-12-14 22:39:21.653 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 22:39:21.658 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 1827.2270ms
+2022-12-14 22:39:34.207 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=22 - -
+2022-12-14 22:39:34.213 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:39:34.223 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:39:34.530 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 22:39:34.533 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 306.7637ms
+2022-12-14 22:39:34.536 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:39:34.539 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=22 - - - 200 0 - 331.4373ms
+2022-12-14 22:39:40.216 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - -
+2022-12-14 22:39:40.220 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 22:39:40.223 +02:00 [INF] Route matched with {action = "GetDogsInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Domain.DogInfo]]] GetDogsInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:39:40.238 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.DogInfo, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-14 22:39:40.243 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi) in 12.4146ms
+2022-12-14 22:39:40.246 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogsInfoList (WebApi)'
+2022-12-14 22:39:40.249 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogsInfoList - - - 200 - application/json;+charset=utf-8 33.5117ms
+2022-12-14 22:39:47.566 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=222 - -
+2022-12-14 22:39:47.568 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:39:47.570 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:39:47.584 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 22:39:47.587 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 12.7402ms
+2022-12-14 22:39:47.590 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:39:47.593 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=222 - - - 200 0 - 26.3500ms
+2022-12-14 22:39:54.109 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=22222 - -
+2022-12-14 22:39:54.111 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:39:54.115 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:39:54.138 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 22:39:54.140 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 19.7303ms
+2022-12-14 22:39:54.148 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:39:54.151 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=22222 - - - 200 0 - 42.6354ms
+2022-12-14 22:40:36.720 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 22:40:36.799 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 22:40:36.814 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 22:40:36.816 +02:00 [INF] Hosting environment: Development
+2022-12-14 22:40:36.818 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 22:40:37.872 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 22:40:38.470 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 603.3841ms
+2022-12-14 22:40:38.517 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 22:40:38.525 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.1716ms
+2022-12-14 22:40:38.536 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 22:40:38.573 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.4959ms
+2022-12-14 22:40:38.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 22:40:39.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 270.3780ms
+2022-12-14 22:40:44.745 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=222 - -
+2022-12-14 22:40:44.771 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:40:44.834 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 22:40:46.903 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 2055.3059ms
+2022-12-14 22:40:46.916 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 22:40:47.069 +02:00 [ERR] Entity with id: 222 not found.
+2022-12-14 22:40:47.079 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=222 - - - 404 - application/json 2333.6819ms
+2022-12-14 23:14:03.738 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 23:14:03.800 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 23:14:03.809 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 23:14:03.812 +02:00 [INF] Hosting environment: Development
+2022-12-14 23:14:03.813 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 23:14:06.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 23:14:07.477 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 695.5355ms
+2022-12-14 23:14:07.529 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 23:14:07.539 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 10.6033ms
+2022-12-14 23:14:07.553 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 23:14:07.592 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5878ms
+2022-12-14 23:14:07.800 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 23:14:08.063 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 263.0267ms
+2022-12-14 23:14:13.860 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - -
+2022-12-14 23:14:13.888 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:14:13.973 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:14:15.643 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM'.
+2022-12-14 23:14:15.678 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi) in 1689.4598ms
+2022-12-14 23:14:15.691 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:14:15.696 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - - - 200 - application/json;+charset=utf-8 1836.3291ms
+2022-12-14 23:23:04.678 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 23:23:04.741 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 23:23:04.758 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 23:23:04.760 +02:00 [INF] Hosting environment: Development
+2022-12-14 23:23:04.763 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 23:23:05.703 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 23:23:06.286 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 588.4759ms
+2022-12-14 23:23:06.323 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 23:23:06.332 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.5477ms
+2022-12-14 23:23:06.343 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 23:23:06.383 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.9678ms
+2022-12-14 23:23:06.620 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 23:23:06.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 254.9219ms
+2022-12-14 23:23:11.698 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - -
+2022-12-14 23:23:11.736 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:23:11.803 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:28:22.112 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 23:28:22.157 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 23:28:22.164 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 23:28:22.166 +02:00 [INF] Hosting environment: Development
+2022-12-14 23:28:22.167 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 23:28:23.084 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 23:28:23.671 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 595.7784ms
+2022-12-14 23:28:23.726 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 23:28:23.735 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 9.0659ms
+2022-12-14 23:28:23.745 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 23:28:23.782 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.7468ms
+2022-12-14 23:28:23.996 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 23:28:24.254 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 258.4620ms
+2022-12-14 23:28:29.863 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - -
+2022-12-14 23:28:29.893 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:28:29.957 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:41:05.827 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-14 23:41:05.881 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-14 23:41:05.889 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-14 23:41:05.892 +02:00 [INF] Hosting environment: Development
+2022-12-14 23:41:05.893 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-14 23:41:06.997 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-14 23:41:07.561 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 572.1219ms
+2022-12-14 23:41:07.604 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-14 23:41:07.612 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.5443ms
+2022-12-14 23:41:07.659 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-14 23:41:07.695 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.5357ms
+2022-12-14 23:41:07.909 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-14 23:41:08.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.4587ms
+2022-12-14 23:41:24.515 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - -
+2022-12-14 23:41:24.554 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:41:24.629 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:41:26.403 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM'.
+2022-12-14 23:41:26.429 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi) in 1784.7319ms
+2022-12-14 23:41:26.441 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:41:26.446 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - - - 200 - application/json;+charset=utf-8 1932.0438ms
+2022-12-14 23:41:59.293 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 129
+2022-12-14 23:41:59.300 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 23:41:59.317 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:41:59.385 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-12-14 23:41:59.391 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 68.2773ms
+2022-12-14 23:41:59.393 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 23:41:59.401 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 129 - 400 - application/problem+json;+charset=utf-8 108.2342ms
+2022-12-14 23:42:07.224 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130
+2022-12-14 23:42:07.228 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 23:42:07.232 +02:00 [INF] Route matched with {action = "CreateDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDogInfo(WebApi.DTOs.DogInfoDTOs.CreateDogInfoDTO, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:42:07.626 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-12-14 23:42:07.629 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi) in 392.4138ms
+2022-12-14 23:42:07.632 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.CreateDogInfo (WebApi)'
+2022-12-14 23:42:07.634 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/DogInfo/CreateDogInfo/CreateDogInfo application/json 130 - 200 0 - 410.6554ms
+2022-12-14 23:42:13.430 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - -
+2022-12-14 23:42:13.433 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:42:13.435 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:42:13.457 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM'.
+2022-12-14 23:42:13.461 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi) in 21.0443ms
+2022-12-14 23:42:13.464 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-14 23:42:13.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList - - - 200 - application/json;+charset=utf-8 36.8997ms
+2022-12-14 23:42:33.541 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=121 - -
+2022-12-14 23:42:33.554 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 23:42:33.563 +02:00 [INF] Route matched with {action = "DeleteDogInfo", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteDogInfo(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-14 23:42:33.845 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi) in 278.8176ms
+2022-12-14 23:42:33.849 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.DeleteDogInfo (WebApi)'
+2022-12-14 23:42:34.006 +02:00 [ERR] Entity with id: 121 not found.
+2022-12-14 23:42:34.011 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7223/api/DogInfo/DeleteDogInfo/DeleteDogInfo?id=121 - - - 404 - application/json 470.0387ms
+2022-12-15 00:06:00.200 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 00:06:00.265 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 00:06:00.275 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 00:06:00.277 +02:00 [INF] Hosting environment: Development
+2022-12-15 00:06:00.279 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 00:06:00.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 00:06:01.534 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 661.3204ms
+2022-12-15 00:06:01.583 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 00:06:01.592 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.8110ms
+2022-12-15 00:06:01.607 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 00:06:01.649 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.7159ms
+2022-12-15 00:06:01.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 00:06:02.079 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 243.5817ms
+2022-12-15 00:06:16.295 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList/GetDogInfoList - -
+2022-12-15 00:06:16.324 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-15 00:06:16.384 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 00:06:18.213 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.Queries.GetDogInfoList.DogInfoListVM'.
+2022-12-15 00:06:18.242 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi) in 1837.6985ms
+2022-12-15 00:06:18.253 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-15 00:06:18.259 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList/GetDogInfoList - - - 200 - application/json;+charset=utf-8 1964.0563ms
+2022-12-15 00:06:28.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=23 - -
+2022-12-15 00:06:28.086 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 00:06:28.107 +02:00 [INF] Route matched with {action = "GetDogInfoById", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoById.DogInfoVM]] GetDogInfoById(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 00:06:28.266 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.Queries.GetDogInfoById.DogInfoVM'.
+2022-12-15 00:06:28.271 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi) in 156.5691ms
+2022-12-15 00:06:28.274 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 00:06:28.278 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=23 - - - 200 - application/json;+charset=utf-8 206.1991ms
+2022-12-15 00:10:52.535 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 00:10:52.594 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 00:10:52.601 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 00:10:52.603 +02:00 [INF] Hosting environment: Development
+2022-12-15 00:10:52.605 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 00:10:53.465 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 00:10:54.176 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 716.5313ms
+2022-12-15 00:10:54.236 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 00:10:54.248 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 12.0434ms
+2022-12-15 00:10:54.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 00:10:54.309 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.5760ms
+2022-12-15 00:10:54.588 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 00:10:54.857 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.3424ms
+2022-12-15 00:11:05.199 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=1323 - -
+2022-12-15 00:11:05.238 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 00:11:05.316 +02:00 [INF] Route matched with {action = "GetDogInfoById", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoById.DogInfoVM]] GetDogInfoById(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 00:11:07.323 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi) in 1993.1557ms
+2022-12-15 00:11:07.337 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 00:11:07.499 +02:00 [ERR] Entity with id: 1323 not found.
+2022-12-15 00:11:07.507 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=1323 - - - 404 - application/json 2308.3886ms
+2022-12-15 00:11:31.112 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 00:11:31.184 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 00:11:31.194 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 00:11:31.197 +02:00 [INF] Hosting environment: Development
+2022-12-15 00:11:31.199 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 00:11:32.337 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 00:11:32.921 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 589.7604ms
+2022-12-15 00:11:32.953 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 00:11:32.962 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 8.6190ms
+2022-12-15 00:11:32.979 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 00:11:33.098 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 118.4534ms
+2022-12-15 00:11:33.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 00:11:33.532 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 266.9207ms
+2022-12-15 00:11:39.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=13131 - -
+2022-12-15 00:11:39.301 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 00:11:39.364 +02:00 [INF] Route matched with {action = "GetDogInfoById", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.Queries.GetDogInfoById.DogInfoVM]] GetDogInfoById(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 00:11:41.097 +02:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2022-12-15 00:11:41.111 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi) in 1733.382ms
+2022-12-15 00:11:41.125 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 00:11:41.131 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=13131 - - - 204 0 - 1859.6450ms

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Application.DogInfo.Commands
+namespace Application.DogInfo.Commands.CreateDogInfo
 {
     public sealed class CreateDogInfoCommand : IRequest
     {

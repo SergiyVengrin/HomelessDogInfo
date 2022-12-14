@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5u7HO4qsknPfD8NVAXh9FtwJspt4i2zYMJs1lrNPhpfDN+ZHK+Wwj6CrbXjw5ShDfXGG+BSmHddT6Aft4ZhURw==",
+  "dgSpecHash": "g2VvHygLQGvmHcV8g2VnlajRlv8RT8MwvVMt6Ep2PieDrg9UKgez7NlpytN7ZL2eg6Sf1w/3jzlNC7AxZP3OcA==",
   "success": true,
   "projectFilePath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\DogInfoWebApi\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\sergi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.4.0\\fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

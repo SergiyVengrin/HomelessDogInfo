@@ -1,5 +1,9 @@
-﻿using Application.DogInfo.Commands;
+﻿using Application.DogInfo.Commands.CreateDogInfo;
+using Application.DogInfo.Commands.DeleteDogInfo;
+using Application.DogInfo.Commands.UpdateDogInfo;
+using Application.DogInfo.Queries.GetDogInfoList;
 using AutoMapper;
+using Domain;
 using WebApi.DTOs.DogInfoDTOs;
 
 namespace WebApi
@@ -9,6 +13,8 @@ namespace WebApi
         public AutoMapperProfile()
         {
             CreateMap<CreateDogInfoDTO, CreateDogInfoCommand>().ReverseMap();
+            CreateMap<UpdateDogInfoDTO, UpdateDogInfoCommand>().ReverseMap();
+            CreateMap<DogInfo, DogInfoLookupDTO>();
         }
     }
 }
