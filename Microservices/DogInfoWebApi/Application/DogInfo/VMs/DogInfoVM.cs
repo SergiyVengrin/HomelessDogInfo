@@ -1,4 +1,4 @@
-﻿namespace Application.DogInfo.Queries.GetDogInfoById
+﻿namespace Application.DogInfo.VMs
 {
     public sealed class DogInfoVM
     {

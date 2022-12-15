@@ -1,4 +1,7 @@
-﻿using AutoMapper;
+﻿using Application.Common.Exceptions;
+using Application.DogInfo.DTOs;
+using Application.DogInfo.VMs;
+using AutoMapper;
 using Dapper;
 using MediatR;
 using Microsoft.Extensions.Configuration;
@@ -25,16 +28,14 @@ namespace Application.DogInfo.Queries.GetDogInfoList
             using (var connection = new NpgsqlConnection(_configuration.GetConnectionString("DogInfoDbConnectionString")))
             {
                 await connection.OpenAsync(cancellationToken);
-                var result = await connection.QueryAsync<Domain.DogInfo>(query);
+                var result = await connection.QueryAsync<DogInfoLookupDTO>(query);
 
-                List<DogInfoLookupDTO> mappedResult = new List<DogInfoLookupDTO>();
-
-                foreach (var r in result)
+                if (!result.Any())
                 {
-                    mappedResult.Add(_mapper.Map<DogInfoLookupDTO>(r));
+                    throw new NotFoundException();
                 }
 
-                return new DogInfoListVM { DogsInfo = mappedResult};
+                return new DogInfoListVM { DogsInfo = result.ToList() };
             }
         }
     }

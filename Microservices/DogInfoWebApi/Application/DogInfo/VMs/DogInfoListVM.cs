@@ -1,4 +1,6 @@
-﻿namespace Application.DogInfo.Queries.GetDogInfoList
+﻿using Application.DogInfo.DTOs;
+
+namespace Application.DogInfo.VMs
 {
     public sealed class DogInfoListVM
     {

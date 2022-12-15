@@ -1491,3 +1491,225 @@ POSITION: 8
 2022-12-15 00:11:41.111 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi) in 1733.382ms
 2022-12-15 00:11:41.125 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
 2022-12-15 00:11:41.131 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=13131 - - - 204 0 - 1859.6450ms
+2022-12-15 18:23:53.055 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:23:53.095 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:23:53.099 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:23:53.100 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:23:53.101 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:23:54.077 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:23:54.564 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 490.0553ms
+2022-12-15 18:23:54.593 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:23:54.599 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.6013ms
+2022-12-15 18:23:54.623 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:23:54.688 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.0984ms
+2022-12-15 18:23:54.755 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:23:54.881 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.6894ms
+2022-12-15 18:24:39.627 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList/GetDogInfoList - -
+2022-12-15 18:24:39.678 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-15 18:24:39.705 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:24:40.569 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:24:40.581 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi) in 868.6724ms
+2022-12-15 18:24:40.586 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-15 18:24:40.589 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList/GetDogInfoList - - - 200 - application/json;+charset=utf-8 962.2055ms
+2022-12-15 18:24:55.470 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=Tom - -
+2022-12-15 18:24:55.473 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:24:55.481 +02:00 [INF] Route matched with {action = "GetDogInfoByName", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByName(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:24:55.539 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:24:55.541 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi) in 57.5722ms
+2022-12-15 18:24:55.542 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:24:55.544 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=Tom - - - 200 - application/json;+charset=utf-8 74.1627ms
+2022-12-15 18:25:13.030 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=23 - -
+2022-12-15 18:25:13.032 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 18:25:13.035 +02:00 [INF] Route matched with {action = "GetDogInfoById", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoById(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:25:13.061 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoVM'.
+2022-12-15 18:25:13.063 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi) in 26.8134ms
+2022-12-15 18:25:13.064 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 18:25:13.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=23 - - - 200 - application/json;+charset=utf-8 35.7942ms
+2022-12-15 18:25:29.124 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=String - -
+2022-12-15 18:25:29.125 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:25:29.126 +02:00 [INF] Route matched with {action = "GetDogInfoByName", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByName(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:25:29.134 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:25:29.136 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi) in 8.1599ms
+2022-12-15 18:25:29.138 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:25:29.140 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=String - - - 200 - application/json;+charset=utf-8 15.8031ms
+2022-12-15 18:25:45.144 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:25:45.166 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:25:45.170 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:25:45.171 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:25:45.173 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:25:46.047 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:25:46.341 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 300.0794ms
+2022-12-15 18:25:46.375 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:25:46.385 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 10.6393ms
+2022-12-15 18:25:46.400 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:25:46.487 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 86.8352ms
+2022-12-15 18:25:46.570 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:25:46.720 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.8622ms
+2022-12-15 18:25:56.726 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=sfsd - -
+2022-12-15 18:25:56.738 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:25:56.764 +02:00 [INF] Route matched with {action = "GetDogInfoByName", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByName(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:25:57.468 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:25:57.484 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi) in 710.2374ms
+2022-12-15 18:25:57.490 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:25:57.493 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=sfsd - - - 200 - application/json;+charset=utf-8 766.8770ms
+2022-12-15 18:29:43.059 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:29:43.083 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:29:43.087 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:29:43.088 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:29:43.089 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:29:43.807 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:29:44.075 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 270.8501ms
+2022-12-15 18:29:44.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:29:44.103 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.9171ms
+2022-12-15 18:29:44.122 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:29:44.147 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.7195ms
+2022-12-15 18:29:44.234 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:29:44.360 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.5621ms
+2022-12-15 18:29:54.867 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=1312 - -
+2022-12-15 18:29:54.880 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 18:29:54.905 +02:00 [INF] Route matched with {action = "GetDogInfoById", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoById(Int32, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:29:55.837 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi) in 924.8248ms
+2022-12-15 18:29:55.843 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoById (WebApi)'
+2022-12-15 18:29:55.931 +02:00 [ERR] Entity with id: 1312 not found.
+2022-12-15 18:29:55.935 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoById/GetDogInfoById?id=1312 - - - 404 - application/json 1067.7831ms
+2022-12-15 18:30:12.261 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=sdf - -
+2022-12-15 18:30:12.263 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:30:12.269 +02:00 [INF] Route matched with {action = "GetDogInfoByName", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByName(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:30:12.373 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi) in 102.1176ms
+2022-12-15 18:30:12.375 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:30:12.430 +02:00 [ERR] Entity with name: sdf not found.
+2022-12-15 18:30:12.431 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/GetDogInfoByName?name=sdf - - - 404 - application/json 170.3335ms
+2022-12-15 18:38:08.138 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:38:08.160 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:38:08.165 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:38:08.166 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:38:08.167 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:38:08.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:38:09.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 265.0491ms
+2022-12-15 18:38:09.121 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:38:09.127 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.9586ms
+2022-12-15 18:38:09.137 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:38:09.161 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.2259ms
+2022-12-15 18:38:09.251 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:38:09.369 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.0890ms
+2022-12-15 18:38:18.077 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/GetDogInfoByResidence?residence=Lviv - -
+2022-12-15 18:38:18.088 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:38:18.113 +02:00 [INF] Route matched with {action = "GetDogInfoByResidence", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByResidence(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:38:18.902 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:38:18.914 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi) in 795.0188ms
+2022-12-15 18:38:18.919 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:38:18.923 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/GetDogInfoByResidence?residence=Lviv - - - 200 - application/json;+charset=utf-8 846.1135ms
+2022-12-15 18:38:59.303 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:38:59.327 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:38:59.330 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:38:59.331 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:38:59.332 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:38:59.947 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:39:00.214 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 269.7421ms
+2022-12-15 18:39:00.235 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:39:00.240 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.7934ms
+2022-12-15 18:39:00.244 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:39:00.262 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.8150ms
+2022-12-15 18:39:00.357 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:39:00.470 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.8449ms
+2022-12-15 18:39:08.153 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/Lviv - -
+2022-12-15 18:39:08.166 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:39:08.192 +02:00 [INF] Route matched with {action = "GetDogInfoByResidence", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByResidence(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:39:08.926 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:39:08.942 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi) in 740.7034ms
+2022-12-15 18:39:08.948 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:39:08.950 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/Lviv - - - 200 - application/json;+charset=utf-8 796.7409ms
+2022-12-15 18:39:25.686 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:39:25.716 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:39:25.720 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:39:25.721 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:39:25.722 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:39:26.424 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:39:26.694 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 273.1333ms
+2022-12-15 18:39:26.714 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:39:26.718 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.4732ms
+2022-12-15 18:39:26.723 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:39:26.742 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.1031ms
+2022-12-15 18:39:26.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:39:26.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.0443ms
+2022-12-15 18:39:36.683 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/GetDogInfoByResidence/Lviv - -
+2022-12-15 18:39:36.695 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:39:36.719 +02:00 [INF] Route matched with {action = "GetDogInfoByResidence", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByResidence(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:39:37.433 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:39:37.445 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi) in 718.9573ms
+2022-12-15 18:39:37.450 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:39:37.452 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/GetDogInfoByResidence/Lviv - - - 200 - application/json;+charset=utf-8 769.2845ms
+2022-12-15 18:39:49.084 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:39:49.121 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:39:49.126 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:39:49.127 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:39:49.128 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:39:49.704 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:39:49.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 275.5214ms
+2022-12-15 18:39:49.999 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:39:50.004 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.6096ms
+2022-12-15 18:39:50.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:39:50.029 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.6749ms
+2022-12-15 18:39:50.130 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:39:50.265 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.2925ms
+2022-12-15 18:40:27.870 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:40:27.890 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:40:27.893 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:40:27.895 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:40:27.896 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:40:28.378 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:40:28.640 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 264.0604ms
+2022-12-15 18:40:28.666 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:40:28.671 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 5.4458ms
+2022-12-15 18:40:28.673 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:40:28.693 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.6401ms
+2022-12-15 18:40:28.773 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:40:28.900 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.7689ms
+2022-12-15 18:40:40.738 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/{Name} - -
+2022-12-15 18:40:40.749 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:40:40.775 +02:00 [INF] Route matched with {action = "GetDogInfoByName", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByName(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:40:41.593 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi) in 812.8306ms
+2022-12-15 18:40:41.599 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:40:41.675 +02:00 [ERR] Entity with value: {Name} not found.
+2022-12-15 18:40:41.679 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/{Name} - - - 404 - application/json 941.2520ms
+2022-12-15 18:40:49.465 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/{Name} - -
+2022-12-15 18:40:49.468 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:40:49.470 +02:00 [INF] Route matched with {action = "GetDogInfoByName", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByName(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:40:49.547 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi) in 74.9906ms
+2022-12-15 18:40:49.548 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:40:49.596 +02:00 [ERR] Entity with value: {Name} not found.
+2022-12-15 18:40:49.598 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/{Name} - - - 404 - application/json 133.2009ms
+2022-12-15 18:40:56.451 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList/GetDogInfoList - -
+2022-12-15 18:40:56.453 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-15 18:40:56.457 +02:00 [INF] Route matched with {action = "GetDogInfoList", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoListVM]] GetDogInfoList(System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:40:56.496 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:40:56.503 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi) in 43.6587ms
+2022-12-15 18:40:56.505 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoList (WebApi)'
+2022-12-15 18:40:56.507 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoList/GetDogInfoList - - - 200 - application/json;+charset=utf-8 56.0268ms
+2022-12-15 18:41:07.742 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/{Residence} - -
+2022-12-15 18:41:07.743 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:41:07.747 +02:00 [INF] Route matched with {action = "GetDogInfoByResidence", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByResidence(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:41:07.812 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi) in 62.6991ms
+2022-12-15 18:41:07.814 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByResidence (WebApi)'
+2022-12-15 18:41:07.862 +02:00 [ERR] Entity with value: {Residence} not found.
+2022-12-15 18:41:07.864 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByResidence/{Residence} - - - 404 - application/json 121.9414ms
+2022-12-15 18:41:34.284 +02:00 [INF] Now listening on: https://localhost:7223
+2022-12-15 18:41:34.310 +02:00 [INF] Now listening on: http://localhost:5009
+2022-12-15 18:41:34.314 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 18:41:34.315 +02:00 [INF] Hosting environment: Development
+2022-12-15 18:41:34.316 +02:00 [INF] Content root path: D:\VisualStudioProjects\HomelessDogInfo\Microservices\DogInfoWebApi\WebApi\
+2022-12-15 18:41:34.702 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-12-15 18:41:34.964 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 264.4543ms
+2022-12-15 18:41:34.988 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-12-15 18:41:34.992 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11982 application/javascript;+charset=utf-8 4.6616ms
+2022-12-15 18:41:34.999 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-12-15 18:41:35.016 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.1755ms
+2022-12-15 18:41:35.110 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-12-15 18:41:35.243 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.3435ms
+2022-12-15 18:41:42.930 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/Tom - -
+2022-12-15 18:41:42.944 +02:00 [INF] Executing endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:41:42.969 +02:00 [INF] Route matched with {action = "GetDogInfoByName", controller = "DogInfo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Application.DogInfo.VMs.DogInfoVM]] GetDogInfoByName(System.String, System.Threading.CancellationToken) on controller WebApi.Controllers.DogInfoController (WebApi).
+2022-12-15 18:41:43.672 +02:00 [INF] Executing OkObjectResult, writing value of type 'Application.DogInfo.VMs.DogInfoListVM'.
+2022-12-15 18:41:43.683 +02:00 [INF] Executed action WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi) in 708.0775ms
+2022-12-15 18:41:43.688 +02:00 [INF] Executed endpoint 'WebApi.Controllers.DogInfoController.GetDogInfoByName (WebApi)'
+2022-12-15 18:41:43.691 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/DogInfo/GetDogInfoByName/Tom - - - 200 - application/json;+charset=utf-8 760.3818ms

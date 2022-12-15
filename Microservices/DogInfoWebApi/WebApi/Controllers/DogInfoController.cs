@@ -2,7 +2,10 @@
 using Application.DogInfo.Commands.DeleteDogInfo;
 using Application.DogInfo.Commands.UpdateDogInfo;
 using Application.DogInfo.Queries.GetDogInfoById;
+using Application.DogInfo.Queries.GetDogInfoByName;
+using Application.DogInfo.Queries.GetDogInfoByResidence;
 using Application.DogInfo.Queries.GetDogInfoList;
+using Application.DogInfo.VMs;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -79,7 +82,7 @@ namespace WebApi.Controllers
         }
 
 
-        [HttpGet("GetDogInfoById")]
+        [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -87,6 +90,32 @@ namespace WebApi.Controllers
         public async Task<ActionResult<DogInfoVM>> GetDogInfoById(int id, CancellationToken cancellationToken)
         {
             var result = await _mediator.Send(new GetDogInfoByIdQuery { Id = id }, cancellationToken);
+
+            return Ok(result);
+        }
+
+
+        [HttpGet("{name}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<DogInfoVM>> GetDogInfoByName(string name,  CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new GetDogInfoByNameQuery { Name = name }, cancellationToken);
+
+            return Ok(result);
+        }
+
+
+        [HttpGet("{residence}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<DogInfoVM>> GetDogInfoByResidence(string residence, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new GetDogInfoByResidenceQuery { Residence = residence }, cancellationToken);
 
             return Ok(result);
         }

@@ -1,7 +1,7 @@
 ﻿using Application.DogInfo.Commands.CreateDogInfo;
 using Application.DogInfo.Commands.DeleteDogInfo;
 using Application.DogInfo.Commands.UpdateDogInfo;
-using Application.DogInfo.Queries.GetDogInfoList;
+using Application.DogInfo.DTOs;
 using AutoMapper;
 using Domain;
 using WebApi.DTOs.DogInfoDTOs;

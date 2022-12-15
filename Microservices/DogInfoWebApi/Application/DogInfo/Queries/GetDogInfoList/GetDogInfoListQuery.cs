@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Application.DogInfo.VMs;
+using MediatR;
 
 namespace Application.DogInfo.Queries.GetDogInfoList
 {

@@ -1,4 +1,4 @@
-﻿namespace Application.DogInfo.Queries.GetDogInfoList
+﻿namespace Application.DogInfo.DTOs
 {
     public sealed class DogInfoLookupDTO
     {
