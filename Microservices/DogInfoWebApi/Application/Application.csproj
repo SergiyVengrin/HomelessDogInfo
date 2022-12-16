@@ -28,6 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Image\Queries\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
 

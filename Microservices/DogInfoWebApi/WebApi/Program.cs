@@ -1,6 +1,7 @@
 using Application;
 using Infrastructure;
 using Infrastructure.Middlewares;
+using Microsoft.Extensions.FileProviders;
 using Serilog;
 using WebApi;
 
@@ -13,7 +14,7 @@ builder.Host.UseSerilog((context, o) =>
 });
 
 builder.Services.AddInfrastructure();
-builder.Services.AddApplication();
+builder.Services.AddApplication(builder.Configuration);
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
@@ -33,6 +34,12 @@ if (app.Environment.IsDevelopment())
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "StaticFiles")),
+    RequestPath = "/StaticFiles"
+});
 
 app.UseAuthorization();
 
