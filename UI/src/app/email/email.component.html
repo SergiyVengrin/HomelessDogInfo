@@ -1,0 +1,21 @@
+<div>
+    <form [formGroup]="emailForm" (ngSubmit)="onSubmit()">
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Receiver</mat-label>
+                <input type="text" id="receiver" name="receiver" formControlName="receiver" matInput placeholder="example@mail.com" >
+              </mat-form-field>
+        </p>
+        <p>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" formControlName="subject"/>
+        </p>
+        <p>
+            <label for="body">Body</label>
+            <input type="text" id="body" name="body" formControlName="body"/>
+        </p>
+        <p>
+            <button type="submit" [disabled]="!emailForm.valid" color="primary" mat-raised-button>Basic</button>
+        </p>
+    </form>
+</div>
