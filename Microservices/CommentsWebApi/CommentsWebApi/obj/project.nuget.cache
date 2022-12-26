@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7QLkPmSskI/DVnEjjZbvh3mmaCA6awpP2iF/C2G8/QtXPDrZGDPMSPSkwL1jbkqWyGS1BJsZMU9srYMtD75C6A==",
+  "dgSpecHash": "7N+G+jbKkiNRB1LpkYOYHDWkvAMaabm/dFCPl+iVOLVFptBgFFmSUOpRzIZe6Pzy6cdwea/ncGFUlTHY+7tQNw==",
   "success": true,
   "projectFilePath": "D:\\VisualStudioProjects\\HomelessDogInfo\\Microservices\\CommentsWebApi\\CommentsWebApi\\CommentsWebApi.csproj",
   "expectedPackageFiles": [
@@ -72,6 +72,7 @@
     "C:\\Users\\sergi\\.nuget\\packages\\microsoft.powershell.native\\7.2.0\\microsoft.powershell.native.7.2.0.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\microsoft.powershell.sdk\\7.2.1\\microsoft.powershell.sdk.7.2.1.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\microsoft.powershell.security\\7.2.1\\microsoft.powershell.security.7.2.1.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\6.0.0\\microsoft.win32.registry.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\sergi\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

@@ -25,16 +25,12 @@ namespace BLL.Services
 
         public async Task<bool> Login(UserModel userModel)
         {
-            try
-            {
-                var user = await _userRepository.GetUserAsync(_mapper.Map<User>(userModel));
+            var user = await _userRepository.GetUserAsync(_mapper.Map<User>(userModel));
 
-                if (user != null && PasswordHasher.VerifyPassword(userModel.Password, user.Password))
-                {
-                    return true;
-                }
+            if (user != null && PasswordHasher.VerifyPassword(userModel.Password, user.Password))
+            {
+                return true;
             }
-            catch { throw; }
 
             return false;
         }
@@ -50,11 +46,7 @@ namespace BLL.Services
 
             var mappedUser = _mapper.Map<User>(userModel);
 
-            try
-            {
-                await _userRepository.AddAsync(mappedUser);
-            }
-            catch { throw; }
+            await _userRepository.AddAsync(mappedUser);
         }
     }
 }

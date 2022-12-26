@@ -20,6 +20,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using BLL.POCOs;
+using BLL.Middlewares;
 
 namespace CommentsWebApi
 {
@@ -42,6 +43,7 @@ namespace CommentsWebApi
             services.AddTransient<ITokenService, TokenService>();
             services.AddTransient<ICommentRepository, CommentRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<ExceptionHandlingMiddleware>();
 
             if (Convert.ToBoolean(Configuration["EnableCaching"]))
             {
@@ -50,8 +52,17 @@ namespace CommentsWebApi
 
             services.Configure<EmailData>(Configuration.GetSection("EmailData"));
 
+            //services.AddDbContext<CommentContext>(options =>
+            //    options.UseNpgsql(Configuration.GetConnectionString("CommentsDbConnectionString"), npgsqlOptions =>
+            //    {
+            //        npgsqlOptions.EnableRetryOnFailure(
+            //            maxRetryCount: 10,
+            //            maxRetryDelay: TimeSpan.FromSeconds(5),
+            //            errorCodesToAdd: new List<string> { "4060" });
+            //    }));
+
             services.AddDbContext<CommentContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("CommentsDbConnectionString"), npgsqlOptions =>
+                options.UseNpgsql(Environment.GetEnvironmentVariable("CommentsDbConnectionString"), npgsqlOptions =>
                 {
                     npgsqlOptions.EnableRetryOnFailure(
                         maxRetryCount: 3,
@@ -127,6 +138,8 @@ namespace CommentsWebApi
                 }
                 await next();
             });
+
+            app.UseMiddleware<ExceptionHandlingMiddleware>();
 
             app.UseHttpsRedirection();
 

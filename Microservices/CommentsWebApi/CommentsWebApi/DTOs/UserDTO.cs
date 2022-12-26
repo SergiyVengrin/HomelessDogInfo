@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CommentsWebApi.Models
+namespace CommentsWebApi.DTOs
 {
     public sealed class UserDTO
     {

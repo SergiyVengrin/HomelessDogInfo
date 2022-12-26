@@ -1,0 +1,3 @@
+2022-12-26T13:22:26.7866558+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-12-26T13:22:26.8057967+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-12-26T13:22:26.8107351+02:00  [INF] Content root path: "D:\VisualStudioProjects\HomelessDogInfo\Microservices\CommentsWebApi\CommentsWebApi" (b5d60022)

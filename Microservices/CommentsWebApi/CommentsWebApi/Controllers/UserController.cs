@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using BLL.Interfaces;
 using BLL.Models;
-using CommentsWebApi.Models;
+using CommentsWebApi.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +32,6 @@ namespace CommentsWebApi.Controllers
         }
 
 
-
         private void GenerateToken(UserDTO userDto)
         {
             if (generatedToken == null)
@@ -53,40 +52,15 @@ namespace CommentsWebApi.Controllers
         }
 
 
-
-        /// <summary>
-        ///     Add User to db
-        /// </summary>
-        /// <remarks>
-        ///     Sample request
-        ///     
-        ///         POST api/User/Register
-        /// 
-        /// </remarks>
-
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Register([FromBody] UserDTO userDto)
         {
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    await _userService.Register(_mapper.Map<UserModel>(userDto));
-                    GenerateToken(userDto);
-                }
-                catch (Exception ex)
-                {
-                    return StatusCode(500, ex.Message);
-                }
-
-                return Ok(new {token = generatedToken});
-            }
-
-            return BadRequest();
+            await _userService.Register(_mapper.Map<UserModel>(userDto));
+            GenerateToken(userDto);
+            return Ok(new { token = generatedToken });
         }
-
 
 
         [HttpPost]

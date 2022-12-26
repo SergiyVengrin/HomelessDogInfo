@@ -2,7 +2,7 @@
 using AutoMapper;
 using BLL.Interfaces;
 using BLL.Models;
-using CommentsWebApi.Models;
+using CommentsWebApi.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -29,34 +29,15 @@ namespace CommentsWebApi.Controllers
         }
 
 
-
-        /// <summary>
-        ///     Sends email
-        /// </summary>
-        /// <remarks>
-        ///     Sample request
-        ///         
-        ///         POST api/Email/SendEmail
-        ///         
-        /// </remarks>
-        
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [Authorize(Roles ="Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> SendEmail(EmailDTO emailDto)
         {
-            try
-            {
-                await _emailSenderService.SendEmail(_mapper.Map<EmailModel>(emailDto));
-                _logger.LogInformation("Email sent!");
-                return Ok("Email sent!");
-            }
-            catch 
-            {
-                _logger.LogInformation("Email was not sent!");
-                return StatusCode(500);
-            }
+            await _emailSenderService.SendEmail(_mapper.Map<EmailModel>(emailDto));
+            _logger.LogInformation("Email sent!");
+            return Ok();
         }
 
     }

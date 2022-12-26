@@ -31,17 +31,16 @@ namespace BLL.Services
             bodyBuilder.TextBody = emailModel.Body;
             emailMessage.Body = bodyBuilder.ToMessageBody();
 
-            try
+
+            using (var client = new SmtpClient())
             {
-                using (var client = new SmtpClient())
-                {
-                    await client.ConnectAsync("smtp.office365.com", 587, SecureSocketOptions.StartTls);
-                    await client.AuthenticateAsync(_config.Value.Address, _config.Value.Password);
-                    await client.SendAsync(emailMessage);
-                    await client.DisconnectAsync(true);
-                }
+                await client.ConnectAsync("smtp.office365.com", 587, SecureSocketOptions.StartTls);
+                await client.AuthenticateAsync(_config.Value.Address, _config.Value.Password);
+                await client.SendAsync(emailMessage);
+                await client.DisconnectAsync(true);
             }
-            catch { throw; }
         }
+
     }
 }
+

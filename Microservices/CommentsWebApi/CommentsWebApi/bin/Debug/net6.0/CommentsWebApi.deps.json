@@ -21,6 +21,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
           "Scrutor": "4.2.0",
           "Serilog.Extensions.Logging.File": "3.0.0",
@@ -1072,6 +1073,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.0": {},
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
           "System.Security.AccessControl": "6.0.0",
@@ -2821,6 +2823,13 @@
       "sha512": "sha512-GV3RuuOmXHAaEjeBcyixdzUIAQvHW6xgoWwafzTe97DbhI+N1sg4fa/FQ9pd8lqG+kkWxGwTy1VgudXX6rhUkg==",
       "path": "microsoft.powershell.security/7.2.1",
       "hashPath": "microsoft.powershell.security.7.2.1.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gfDtAL1WhkjbRdbZlt/ZeQYCbgRpNCZCGj+yeqHObsNFRDHjq8qZJOX9AyTxJpSRYMi9SJk7JDyAbbVYRgEhAA==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.17.0",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",

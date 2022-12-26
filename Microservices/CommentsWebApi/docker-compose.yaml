@@ -1,0 +1,42 @@
+version: '3.4'
+
+networks:
+  commentswebapi-network:
+    driver: bridge
+
+services:
+  commentswebapi:
+    image: commentsimage
+    container_name: commentscontainer
+    depends_on:
+      - "postgresserver"
+    build:
+      context: .
+      dockerfile: CommentsWebApi\Dockerfile
+    ports:
+      - "5009:80"
+    environment:
+      - CommentsDbConnectionString=host=postgresserver;port=5432;database=CommentsDb;username=postgres;password=1234567890;Pooling=true;
+    networks:
+      - commentswebapi-network
+
+  postgresserver:
+    image: postgres:latest
+    container_name: postgresserver
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234567890
+      - POSTGRES_DB=CommentsDb
+    volumes:
+       - pgdata:/var/lib/postgresql/data
+       - ./sql/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
+    ports:
+        - "5432:5432"
+    networks:
+      - commentswebapi-network
+
+volumes:
+  pgdata:
+   
+

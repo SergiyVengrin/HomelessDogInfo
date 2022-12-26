@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using BLL.Models;
-using CommentsWebApi.Models;
+using CommentsWebApi.DTOs;
 using DAL.Entities;
 
 namespace CommentsWebApi
